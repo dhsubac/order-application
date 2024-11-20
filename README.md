@@ -24,6 +24,7 @@ See the README.md files inside the each microservices directory:
 - counter
 - coupon
 - delivery
+- mypage
 
 
 ## Run API Gateway (Spring Gateway)
@@ -45,6 +46,9 @@ mvn spring-boot:run
 ```
 ```
 - delivery
+```
+```
+- mypage
 ```
 ```
 

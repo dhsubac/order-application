@@ -14,6 +14,7 @@ import CounterInventoryDetail from "./components/listers/CounterInventoryDetail"
 
 
 
+
 export default new Router({
     // mode: 'history',
     base: process.env.BASE_URL,
@@ -39,6 +40,7 @@ export default new Router({
                 name: 'CounterInventoryDetail',
                 component: CounterInventoryDetail
             },
+
 
 
 

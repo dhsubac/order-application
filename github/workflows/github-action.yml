@@ -33,6 +33,7 @@ jobs:
           mvn clean package -f ./counter/pom.xml
           mvn clean package -f ./coupon/pom.xml
           mvn clean package -f ./delivery/pom.xml
+          mvn clean package -f ./mypage/pom.xml
 
       - name: Docker Build and push for Order
         uses: docker/build-push-action@v4
@@ -73,4 +74,14 @@ jobs:
           tags: |
             ghcr.io/${{ github.repository }}/delivery:latest
             ghcr.io/${{ github.repository }}/delivery:${{ github.ref_name }}
+            
+      - name: Docker Build and push for Mypage
+        uses: docker/build-push-action@v4
+        with:
+          context: ./mypage
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: |
+            ghcr.io/${{ github.repository }}/mypage:latest
+            ghcr.io/${{ github.repository }}/mypage:${{ github.ref_name }}
             
