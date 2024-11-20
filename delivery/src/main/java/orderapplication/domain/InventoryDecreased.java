@@ -10,6 +10,6 @@ import orderapplication.infra.AbstractEvent;
 public class InventoryDecreased extends AbstractEvent {
 
     private Long id;
-    private String menuId;
+    private Integer menuId;
     private Integer qty;
 }

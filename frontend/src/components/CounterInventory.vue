@@ -16,7 +16,7 @@
         </v-card-title >        
 
         <v-card-text style="background-color: white;">
-            <String label="MenuId" v-model="value.menuId" :editMode="editMode" :inputUI="''"/>
+            <Number label="MenuId" v-model="value.menuId" :editMode="editMode" :inputUI="''"/>
             <Number label="Qty" v-model="value.qty" :editMode="editMode" :inputUI="''"/>
         </v-card-text>
 

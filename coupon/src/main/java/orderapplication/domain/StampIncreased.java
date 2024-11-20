@@ -14,7 +14,7 @@ public class StampIncreased extends AbstractEvent {
     private Long id;
     private String customerName;
     private Integer customerId;
-    private Integer qty;
+    private Integer stanpqty;
 
     public StampIncreased(Coupon aggregate) {
         super(aggregate);

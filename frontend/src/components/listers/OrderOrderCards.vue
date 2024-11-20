@@ -104,9 +104,10 @@
             me.values = temp.data._embedded.orders;
             
             me.newValue = {
-                'customerId': '',
+                'customerId': 0,
                 'menuId': 0,
                 'price': 0,
+                'qty': 0,
             }
         },
         methods:{

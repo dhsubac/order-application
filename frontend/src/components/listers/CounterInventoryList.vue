@@ -116,7 +116,7 @@
             this.values = temp.data._embedded.inventories;
             
             this.newValue = {
-                'menuId': '',
+                'menuId': 0,
                 'qty': 0,
             }
         },

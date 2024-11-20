@@ -10,7 +10,8 @@ import orderapplication.infra.AbstractEvent;
 public class OrderCanceled extends AbstractEvent {
 
     private Long id;
-    private String customerId;
+    private Integer customerId;
     private Integer menuId;
     private Integer price;
+    private Integer qty;
 }

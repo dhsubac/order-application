@@ -104,7 +104,7 @@
             me.values = temp.data._embedded.inventories;
             
             me.newValue = {
-                'menuId': '',
+                'menuId': 0,
                 'qty': 0,
             }
         },
