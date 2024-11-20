@@ -8,6 +8,12 @@
             <div>
                 <Number label="TableId" v-model="item.tableId" :editMode="editMode" @change="change" />
             </div>
+            <div>
+                <String label="CustomerName" v-model="item.customerName" :editMode="editMode" @change="change" />
+            </div>
+            <div>
+                <Number label="CustomerId" v-model="item.customerId" :editMode="editMode" @change="change" />
+            </div>
         </v-card-text>
 
         <v-card-actions>

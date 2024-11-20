@@ -17,6 +17,8 @@
 
         <v-card-text style="background-color: white;">
             <Number label="TableId" v-model="value.tableId" :editMode="editMode" :inputUI="''"/>
+            <String label="CustomerName" v-model="value.customerName" :editMode="editMode" :inputUI="''"/>
+            <Number label="CustomerId" v-model="value.customerId" :editMode="editMode" :inputUI="''"/>
         </v-card-text>
 
         <v-card-actions style="background-color: white;">

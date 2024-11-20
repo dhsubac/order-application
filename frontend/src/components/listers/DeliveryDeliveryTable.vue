@@ -68,6 +68,8 @@
                 [
                     { text: "id", value: "id" },
                     { text: "tableId", value: "tableId" },
+                    { text: "customerName", value: "customerName" },
+                    { text: "customerId", value: "customerId" },
                 ],
             delivery : [],
             newValue: {},
@@ -86,6 +88,8 @@
 
             this.newValue = {
                 'tableId': 0,
+                'customerName': '',
+                'customerId': 0,
             }
         },
         methods: {

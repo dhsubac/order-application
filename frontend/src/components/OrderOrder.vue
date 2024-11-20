@@ -42,6 +42,13 @@
                 <v-btn
                     color="primary"
                     text
+                    @click="save"
+                >
+                    CancelOrder
+                </v-btn>
+                <v-btn
+                    color="primary"
+                    text
                     @click="remove"
                     v-if="!editMode"
                 >

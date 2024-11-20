@@ -19,6 +19,10 @@ public class Delivery {
 
     private Integer tableId;
 
+    private String customerName;
+
+    private Integer customerId;
+
     public static DeliveryRepository repository() {
         DeliveryRepository deliveryRepository = DeliveryApplication.applicationContext.getBean(
             DeliveryRepository.class
@@ -34,6 +38,8 @@ public class Delivery {
         Delivery delivery = new Delivery();
         repository().save(delivery);
 
+        DeliveyStarted deliveyStarted = new DeliveyStarted(delivery);
+        deliveyStarted.publishAfterCommit();
         */
 
         /** Example 2:  finding and process
@@ -43,6 +49,8 @@ public class Delivery {
             delivery // do something
             repository().save(delivery);
 
+            DeliveyStarted deliveyStarted = new DeliveyStarted(delivery);
+            deliveyStarted.publishAfterCommit();
 
          });
         */

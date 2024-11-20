@@ -38,6 +38,8 @@ public class Coupon {
         Coupon coupon = new Coupon();
         repository().save(coupon);
 
+        StampIncreased stampIncreased = new StampIncreased(coupon);
+        stampIncreased.publishAfterCommit();
         */
 
         /** Example 2:  finding and process
@@ -47,6 +49,8 @@ public class Coupon {
             coupon // do something
             repository().save(coupon);
 
+            StampIncreased stampIncreased = new StampIncreased(coupon);
+            stampIncreased.publishAfterCommit();
 
          });
         */

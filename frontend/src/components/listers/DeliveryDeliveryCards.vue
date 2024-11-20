@@ -105,6 +105,8 @@
             
             me.newValue = {
                 'tableId': 0,
+                'customerName': '',
+                'customerId': 0,
             }
         },
         methods:{
