@@ -1,3 +1,12 @@
+1. eventstorming
+
+2. 분산트랜잭션 - saga
+3. 보상처리 - compensation
+4. 단일 진입점 - gateway
+5. 분산 데이터 프로젝션 - cgrs
+
+6. 
+
 # 
 
 ## Model
