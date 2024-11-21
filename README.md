@@ -1,6 +1,7 @@
 eventstorming
 --------------
-
+![image](https://github.com/user-attachments/assets/af981cec-e871-4e92-a27f-ffb5f63139d4)   
+order application(ex 커피 어플)
 
 분산트랜잭션 - saga & 보상처리 - compensation
 --------------
