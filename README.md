@@ -20,7 +20,12 @@
 5. 단일 진입점 - gateway
 6. 분산 데이터 프로젝션 - cgrs
 
-7. 
+7. 컨테이너 자동확장 - HPA
+![image](https://github.com/user-attachments/assets/c4ff2f77-a33e-4606-bf90-aaa796794ed7)
+![image](https://github.com/user-attachments/assets/328ad850-3c72-427e-96b8-429019b686c0)
+
+![image](https://github.com/user-attachments/assets/15848ca4-8678-4926-a704-e6e3567d9ab0)
+오토스케일 된 것 확인 가능
 
 # 
 
