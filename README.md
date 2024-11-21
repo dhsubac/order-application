@@ -4,13 +4,11 @@
 
 2. 분산트랜잭션 - saga
 --------------
-![image](https://github.com/user-attachments/assets/ac303429-a6d8-4923-b98f-23bc45ee02d6)
-![image](https://github.com/user-attachments/assets/7258ab57-ece9-4201-866c-c90de2bd717d)
-![image](https://github.com/user-attachments/assets/ee969215-8028-4ab6-a3df-93e0e0450bf4)
-
+![image](https://github.com/user-attachments/assets/ac303429-a6d8-4923-b98f-23bc45ee02d6)   
+![image](https://github.com/user-attachments/assets/7258ab57-ece9-4201-866c-c90de2bd717d)   
+![image](https://github.com/user-attachments/assets/ee969215-8028-4ab6-a3df-93e0e0450bf4)   
 1번 메뉴 재고 77개
-![image](https://github.com/user-attachments/assets/ea40885e-6a51-4981-a00e-f063d7e41e1d)
-
+![image](https://github.com/user-attachments/assets/ea40885e-6a51-4981-a00e-f063d7e41e1d)   
 1번 메뉴 7개 주문
 ![image](https://github.com/user-attachments/assets/464fb5b0-dc38-427e-9159-5b1879077d5f)
 
