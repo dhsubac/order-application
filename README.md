@@ -3,7 +3,7 @@
 
 
 2. 분산트랜잭션 - saga
-
+--------------
 ![image](https://github.com/user-attachments/assets/ac303429-a6d8-4923-b98f-23bc45ee02d6)
 ![image](https://github.com/user-attachments/assets/7258ab57-ece9-4201-866c-c90de2bd717d)
 ![image](https://github.com/user-attachments/assets/ee969215-8028-4ab6-a3df-93e0e0450bf4)
@@ -24,10 +24,11 @@
 
 
 4. 보상처리 - compensation
-5. 단일 진입점 - gateway
-6. 분산 데이터 프로젝션 - cgrs
+    --------------
+6. 단일 진입점 - gateway
+7. 분산 데이터 프로젝션 - cgrs
 
-7. 컨테이너 자동확장 - HPA
+8. 컨테이너 자동확장 - HPA
 
 ![image](https://github.com/user-attachments/assets/c4ff2f77-a33e-4606-bf90-aaa796794ed7)
 ![image](https://github.com/user-attachments/assets/328ad850-3c72-427e-96b8-429019b686c0)
