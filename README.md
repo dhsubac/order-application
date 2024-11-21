@@ -23,13 +23,16 @@
 재고 복구 과정 확인
 
 
-4. 보상처리 - compensation
-    --------------
-6. 단일 진입점 - gateway
-7. 분산 데이터 프로젝션 - cgrs
+보상처리 - compensation
+--------------
+단일 진입점 - gateway
+--------------
+분산 데이터 프로젝션 - cgrs
+--------------
 
-8. 컨테이너 자동확장 - HPA
 
+컨테이너 자동확장 - HPA
+--------------
 ![image](https://github.com/user-attachments/assets/c4ff2f77-a33e-4606-bf90-aaa796794ed7)
 ![image](https://github.com/user-attachments/assets/328ad850-3c72-427e-96b8-429019b686c0)
 
@@ -37,13 +40,14 @@
 
 오토스케일 된 것 확인 가능
 
-8. configMap
-
+configMap
+--------------
 ![image](https://github.com/user-attachments/assets/77a30eba-5353-41f3-8798-1b836c270a3c)
 
 configMap 객체 생성
 
-9. pvc
+PVC
+--------------
 
 ![image](https://github.com/user-attachments/assets/f81696a1-5d5c-42f2-a144-e6a209012d89)
 
@@ -58,8 +62,8 @@ PVC 생성
 
 1번 컨테이너 리소스 생성 -> 2번 컨테이너에서 리소스 확인
 
-10. liveness probe(셀프 힐링/무정지배포)
-
+liveness probe(셀프 힐링/무정지배포)
+--------------
 ![image](https://github.com/user-attachments/assets/0ae48233-38fe-4ee8-ae9d-fa21994b747b)
 
 liveness probe 설정
@@ -68,7 +72,8 @@ liveness probe 설정
 
 pod killing 후 restart 확인
 
-11. service mesh
+service mesh
+--------------
 - istio
 ![image](https://github.com/user-attachments/assets/ca5b3d02-2ae9-4e24-abb3-7563f28be679)
 
@@ -76,8 +81,9 @@ pod killing 후 restart 확인
 
 sidecar inject 추가
 
-12. loggeration
-    
+loggeration
+--------------
+
   
 
 
