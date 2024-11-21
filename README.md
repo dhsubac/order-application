@@ -7,18 +7,18 @@
 ![image](https://github.com/user-attachments/assets/ac303429-a6d8-4923-b98f-23bc45ee02d6)   
 ![image](https://github.com/user-attachments/assets/7258ab57-ece9-4201-866c-c90de2bd717d)   
 ![image](https://github.com/user-attachments/assets/ee969215-8028-4ab6-a3df-93e0e0450bf4)   
-1번 메뉴 재고 77개
+1번 메뉴 재고 77개   
 ![image](https://github.com/user-attachments/assets/ea40885e-6a51-4981-a00e-f063d7e41e1d)   
-1번 메뉴 7개 주문
-![image](https://github.com/user-attachments/assets/464fb5b0-dc38-427e-9159-5b1879077d5f)
+1번 메뉴 7개 주문   
+![image](https://github.com/user-attachments/assets/464fb5b0-dc38-427e-9159-5b1879077d5f)   
 
-1번 메뉴 재고 70개
-![image](https://github.com/user-attachments/assets/4e70d3ee-e700-495f-bbcc-72b0c0d84ced)
+1번 메뉴 재고 70개   
+![image](https://github.com/user-attachments/assets/4e70d3ee-e700-495f-bbcc-72b0c0d84ced)   
 
-취소 진행
-![image](https://github.com/user-attachments/assets/18194571-3096-4ed0-b0e5-b7bbc472a3ea)
+취소 진행   
+![image](https://github.com/user-attachments/assets/18194571-3096-4ed0-b0e5-b7bbc472a3ea)   
 
-재고 복구 과정 확인
+재고 복구 과정 확인   
 
 
 보상처리 - compensation
