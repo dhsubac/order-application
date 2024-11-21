@@ -33,6 +33,27 @@
 ![image](https://github.com/user-attachments/assets/77a30eba-5353-41f3-8798-1b836c270a3c)
 configMap 객체 생성
 
+9. pvc
+
+![image](https://github.com/user-attachments/assets/f81696a1-5d5c-42f2-a144-e6a209012d89)
+emptyDir Volume 생성
+![image](https://github.com/user-attachments/assets/a3ebbf86-233c-4aec-8eee-6e627a898d06)
+
+![image](https://github.com/user-attachments/assets/89432993-a9bc-4419-b685-3ebc0ccc1863)
+PVC 생성
+
+![image](https://github.com/user-attachments/assets/aa77ea68-bd6b-4247-bdf5-e4b08d0a3a84)
+1번 컨테이너 리소스 생성 -> 2번 컨테이너에서 리소스 확인
+
+10. liveness probe(셀프 힐링/무정지배포)
+
+![image](https://github.com/user-attachments/assets/0ae48233-38fe-4ee8-ae9d-fa21994b747b)
+liveness probe 설정
+
+![image](https://github.com/user-attachments/assets/c06f6e0d-2389-475e-9cdd-5a656796ea07)
+pod killing 후 restart 확인
+
+
 
 # 
 
