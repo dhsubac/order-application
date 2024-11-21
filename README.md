@@ -79,8 +79,19 @@ service mesh
 
 sidecar inject 추가
 
-loggeration
+loggeration with LOKI stack
 --------------
+![image](https://github.com/user-attachments/assets/6c3b1412-c297-4805-b488-933284ab0440)   
+PLG 스택 사용하도록 loki-stack-values.yaml 수정   
+grafana 실행 후 접속   
+![image](https://github.com/user-attachments/assets/53feec97-0a78-4eac-861e-a407d58f94ae)   
+Loki datasource 확인   
+
+![image](https://github.com/user-attachments/assets/506188ca-f6a5-4973-a2fa-5d6c8237850e)   
+log 확인 가능
+
+
+
 
   
 
