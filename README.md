@@ -47,48 +47,48 @@ configMap 객체 생성
 PVC
 --------------
 
-![image](https://github.com/user-attachments/assets/f81696a1-5d5c-42f2-a144-e6a209012d89)
+![image](https://github.com/user-attachments/assets/f81696a1-5d5c-42f2-a144-e6a209012d89)   
 
-emptyDir Volume 생성
-![image](https://github.com/user-attachments/assets/a3ebbf86-233c-4aec-8eee-6e627a898d06)
+emptyDir Volume 생성   
+![image](https://github.com/user-attachments/assets/a3ebbf86-233c-4aec-8eee-6e627a898d06)   
 
-![image](https://github.com/user-attachments/assets/89432993-a9bc-4419-b685-3ebc0ccc1863)
+![image](https://github.com/user-attachments/assets/89432993-a9bc-4419-b685-3ebc0ccc1863)   
 
-PVC 생성
+PVC 생성   
 
-![image](https://github.com/user-attachments/assets/aa77ea68-bd6b-4247-bdf5-e4b08d0a3a84)
+![image](https://github.com/user-attachments/assets/aa77ea68-bd6b-4247-bdf5-e4b08d0a3a84)   
 
-1번 컨테이너 리소스 생성 -> 2번 컨테이너에서 리소스 확인
+1번 컨테이너 리소스 생성 -> 2번 컨테이너에서 리소스 확인   
 
 liveness probe(셀프 힐링/무정지배포)
 --------------
-![image](https://github.com/user-attachments/assets/0ae48233-38fe-4ee8-ae9d-fa21994b747b)
+![image](https://github.com/user-attachments/assets/0ae48233-38fe-4ee8-ae9d-fa21994b747b)   
 
-liveness probe 설정
+liveness probe 설정   
 
-![image](https://github.com/user-attachments/assets/c06f6e0d-2389-475e-9cdd-5a656796ea07)
+![image](https://github.com/user-attachments/assets/c06f6e0d-2389-475e-9cdd-5a656796ea07)   
 
-pod killing 후 restart 확인
+pod killing 후 restart 확인   
 
 service mesh
 --------------
 - istio
-![image](https://github.com/user-attachments/assets/ca5b3d02-2ae9-4e24-abb3-7563f28be679)
+![image](https://github.com/user-attachments/assets/ca5b3d02-2ae9-4e24-abb3-7563f28be679)   
 
-![image](https://github.com/user-attachments/assets/abf79484-6172-404f-85d9-b9ca4f63f690)
+![image](https://github.com/user-attachments/assets/abf79484-6172-404f-85d9-b9ca4f63f690)   
 
-sidecar inject 추가
+sidecar inject 추가   
 
-loggeration with LOKI stack
+loggeration with LOKI stack   
 --------------
-![image](https://github.com/user-attachments/assets/6c3b1412-c297-4805-b488-933284ab0440)   
+![image](https://github.com/user-attachments/assets/6c3b1412-c297-4805-b488-933284ab0440)    
 PLG 스택 사용하도록 loki-stack-values.yaml 수정   
 grafana 실행 후 접속   
 ![image](https://github.com/user-attachments/assets/53feec97-0a78-4eac-861e-a407d58f94ae)   
 Loki datasource 확인   
 
 ![image](https://github.com/user-attachments/assets/506188ca-f6a5-4973-a2fa-5d6c8237850e)   
-log 확인 가능
+log 확인 가능   
 
 
 
