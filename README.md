@@ -1,8 +1,8 @@
-1. eventstorming
+eventstorming
 --------------
 
 
-2. 분산트랜잭션 - saga
+분산트랜잭션 - saga & 보상처리 - compensation
 --------------
 ![image](https://github.com/user-attachments/assets/ac303429-a6d8-4923-b98f-23bc45ee02d6)   
 ![image](https://github.com/user-attachments/assets/7258ab57-ece9-4201-866c-c90de2bd717d)   
@@ -21,8 +21,7 @@
 재고 복구 과정 확인   
 
 
-보상처리 - compensation
---------------
+
 단일 진입점 - gateway
 --------------
 분산 데이터 프로젝션 - cgrs
