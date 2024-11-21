@@ -1,4 +1,6 @@
 1. eventstorming
+--------------
+
 
 2. 분산트랜잭션 - saga
 
@@ -64,6 +66,18 @@ liveness probe 설정
 ![image](https://github.com/user-attachments/assets/c06f6e0d-2389-475e-9cdd-5a656796ea07)
 
 pod killing 후 restart 확인
+
+11. service mesh
+- istio
+![image](https://github.com/user-attachments/assets/ca5b3d02-2ae9-4e24-abb3-7563f28be679)
+
+![image](https://github.com/user-attachments/assets/abf79484-6172-404f-85d9-b9ca4f63f690)
+
+sidecar inject 추가
+
+12. loggeration
+    
+  
 
 
 
