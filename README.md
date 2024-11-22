@@ -72,7 +72,7 @@ pod killing 후 restart 확인
 
 service mesh
 --------------
-- istio
+istio
 ![image](https://github.com/user-attachments/assets/ca5b3d02-2ae9-4e24-abb3-7563f28be679)   
 
 ![image](https://github.com/user-attachments/assets/abf79484-6172-404f-85d9-b9ca4f63f690)   
