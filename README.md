@@ -90,6 +90,21 @@ Loki datasource 확인
 ![image](https://github.com/user-attachments/assets/506188ca-f6a5-4973-a2fa-5d6c8237850e)   
 log 확인 가능   
 
+Cloud 배포 - 컨테이너 운영
+---------------
+azure devops 사용   
+CI   
+![image](https://github.com/user-attachments/assets/506e879c-2c0c-4f00-a7c3-ce74f97f940c)   
+![image](https://github.com/user-attachments/assets/0a2a444b-fde5-408d-a37a-3eb8326da53f)   
+
+CD   
+![image](https://github.com/user-attachments/assets/1885fb2d-d47d-4501-a202-ce3574c9e8b4)   
+
+
+![image](https://github.com/user-attachments/assets/8513548d-8d68-4876-b0ac-803036fc1fda)   
+새로운 pod가 배포되었음이 확인됨.
+
+
 
 
 
