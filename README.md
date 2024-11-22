@@ -3,6 +3,11 @@ eventstorming
 ![image](https://github.com/user-attachments/assets/af981cec-e871-4e92-a27f-ffb5f63139d4)   
 order application(ex 커피 어플)
 
+Pipeline 구조   
+--------------
+![image](https://github.com/user-attachments/assets/23c471c2-c69e-406b-be0c-cadf0dfb4f7b)    
+
+
 분산트랜잭션 - saga & 보상처리 - compensation
 --------------
 ![image](https://github.com/user-attachments/assets/ac303429-a6d8-4923-b98f-23bc45ee02d6)   
@@ -27,6 +32,8 @@ order application(ex 커피 어플)
 --------------
 분산 데이터 프로젝션 - cgrs
 --------------
+![image](https://github.com/user-attachments/assets/8e38458a-8e6f-4ddf-a8ca-a34409bd2b4f)   
+
 
 
 컨테이너 자동확장 - HPA
