@@ -27,9 +27,6 @@ Pipeline 구조
 재고 복구 과정 확인   
 
 
-
-단일 진입점 - gateway
---------------
 분산 데이터 프로젝션 - cgrs
 --------------
 ![image](https://github.com/user-attachments/assets/8e38458a-8e6f-4ddf-a8ca-a34409bd2b4f)   
