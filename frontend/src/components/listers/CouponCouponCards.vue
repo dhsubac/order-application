@@ -106,7 +106,7 @@
             me.newValue = {
                 'customerName': '',
                 'customerId': 0,
-                'qty': 0,
+                'stanpqty': 0,
             }
         },
         methods:{

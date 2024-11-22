@@ -6,6 +6,7 @@ import java.util.List;
 import javax.persistence.*;
 import lombok.Data;
 import orderapplication.DeliveryApplication;
+import orderapplication.domain.DeliveyStarted;
 
 @Entity
 @Table(name = "Delivery_table")
@@ -22,6 +23,12 @@ public class Delivery {
     private String customerName;
 
     private Integer customerId;
+
+    @PostPersist
+    public void onPostPersist() {
+        DeliveyStarted deliveyStarted = new DeliveyStarted(this);
+        deliveyStarted.publishAfterCommit();
+    }
 
     public static DeliveryRepository repository() {
         DeliveryRepository deliveryRepository = DeliveryApplication.applicationContext.getBean(

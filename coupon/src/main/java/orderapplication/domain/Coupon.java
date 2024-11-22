@@ -6,6 +6,7 @@ import java.util.List;
 import javax.persistence.*;
 import lombok.Data;
 import orderapplication.CouponApplication;
+import orderapplication.domain.StampIncreased;
 
 @Entity
 @Table(name = "Coupon_table")
@@ -21,7 +22,13 @@ public class Coupon {
 
     private Integer customerId;
 
-    private Integer qty;
+    private Integer stanpqty;
+
+    @PostPersist
+    public void onPostPersist() {
+        StampIncreased stampIncreased = new StampIncreased(this);
+        stampIncreased.publishAfterCommit();
+    }
 
     public static CouponRepository repository() {
         CouponRepository couponRepository = CouponApplication.applicationContext.getBean(

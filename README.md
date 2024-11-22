@@ -44,9 +44,11 @@ mvn spring-boot:run
 ```
 - coupon
 ```
+ http :8088/coupons id="id" customerName="customerName" customerId="customerId" stanpqty="stanpqty" 
 ```
 - delivery
 ```
+ http :8088/deliveries id="id" tableId="tableId" customerName="customerName" customerId="customerId" 
 ```
 - mypage
 ```

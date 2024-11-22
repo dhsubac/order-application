@@ -69,7 +69,7 @@
                     { text: "id", value: "id" },
                     { text: "customerName", value: "customerName" },
                     { text: "customerId", value: "customerId" },
-                    { text: "qty", value: "qty" },
+                    { text: "stanpqty", value: "stanpqty" },
                 ],
             coupon : [],
             newValue: {},
@@ -89,7 +89,7 @@
             this.newValue = {
                 'customerName': '',
                 'customerId': 0,
-                'qty': 0,
+                'stanpqty': 0,
             }
         },
         methods: {

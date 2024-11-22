@@ -50,7 +50,7 @@
                             [ Id :  {{data.id }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ CustomerName :  {{data.customerName }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ CustomerId :  {{data.customerId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            [ Qty :  {{data.qty }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ Stanpqty :  {{data.stanpqty }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </v-list-item-subtitle>
 
                     </v-list-item-content>
@@ -120,7 +120,7 @@
             this.newValue = {
                 'customerName': '',
                 'customerId': 0,
-                'qty': 0,
+                'stanpqty': 0,
             }
         },
         methods: {

@@ -58,6 +58,28 @@
                     </v-list-item>
 
 
+                    <v-list-item
+                        class="px-2"
+                        key="coupons"
+                        to="/coupons/coupons"
+                        @click="changeUrl()"
+                        color="primary"
+                        style="font-weight:700;"
+                    >
+                        Coupon
+                    </v-list-item>
+
+
+                    <v-list-item
+                        class="px-2"
+                        key="deliveries"
+                        to="/deliveries/deliveries"
+                        @click="changeUrl()"
+                        color="primary"
+                        style="font-weight:700;"
+                    >
+                        Delivery
+                    </v-list-item>
 
 
 
@@ -151,6 +173,20 @@ export default {
                 description: '', 
                 key: 'inventories', 
                 route: '/counters/inventories',
+                ImageUrl: '',
+            },
+            { 
+                title: 'Coupon', 
+                description: '', 
+                key: 'coupons', 
+                route: '/coupons/coupons',
+                ImageUrl: '',
+            },
+            { 
+                title: 'Delivery', 
+                description: '', 
+                key: 'deliveries', 
+                route: '/deliveries/deliveries',
                 ImageUrl: '',
             },
             

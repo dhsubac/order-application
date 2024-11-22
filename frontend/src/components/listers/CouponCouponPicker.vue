@@ -21,7 +21,7 @@
                                 CustomerId :  {{item.customerId }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
-                                Qty :  {{item.qty }}
+                                Stanpqty :  {{item.stanpqty }}
                             </v-list-item-subtitle>
                         </v-list-item-content>
 

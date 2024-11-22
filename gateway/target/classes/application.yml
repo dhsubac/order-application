@@ -20,11 +20,11 @@ spring:
         - id: coupon
           uri: http://localhost:8084
           predicates:
-            - Path=, 
+            - Path=/coupons/**, 
         - id: delivery
           uri: http://localhost:8085
           predicates:
-            - Path=, 
+            - Path=/deliveries/**, 
         - id: mypage
           uri: http://localhost:8086
           predicates:
@@ -64,11 +64,11 @@ spring:
         - id: coupon
           uri: http://coupon:8080
           predicates:
-            - Path=, 
+            - Path=/coupons/**, 
         - id: delivery
           uri: http://delivery:8080
           predicates:
-            - Path=, 
+            - Path=/deliveries/**, 
         - id: mypage
           uri: http://mypage:8080
           predicates:

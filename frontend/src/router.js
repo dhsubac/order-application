@@ -11,7 +11,11 @@ import OrderOrderDetail from "./components/listers/OrderOrderDetail"
 import CounterInventoryManager from "./components/listers/CounterInventoryCards"
 import CounterInventoryDetail from "./components/listers/CounterInventoryDetail"
 
+import CouponCouponManager from "./components/listers/CouponCouponCards"
+import CouponCouponDetail from "./components/listers/CouponCouponDetail"
 
+import DeliveryDeliveryManager from "./components/listers/DeliveryDeliveryCards"
+import DeliveryDeliveryDetail from "./components/listers/DeliveryDeliveryDetail"
 
 
 
@@ -41,7 +45,27 @@ export default new Router({
                 component: CounterInventoryDetail
             },
 
+            {
+                path: '/coupons/coupons',
+                name: 'CouponCouponManager',
+                component: CouponCouponManager
+            },
+            {
+                path: '/coupons/coupons/:id',
+                name: 'CouponCouponDetail',
+                component: CouponCouponDetail
+            },
 
+            {
+                path: '/deliveries/deliveries',
+                name: 'DeliveryDeliveryManager',
+                component: DeliveryDeliveryManager
+            },
+            {
+                path: '/deliveries/deliveries/:id',
+                name: 'DeliveryDeliveryDetail',
+                component: DeliveryDeliveryDetail
+            },
 
 
 
